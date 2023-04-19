@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: whitesmoke;
+    margin: 0;
+}
+
+$bg-green: #007057;
+$second-bg: #098066;
+
+.bg-second {
+    background-color: $second-bg;
+}
+
+.btn-light-green {
+    background-color: $bg-green;
+    color: #fff;
+     padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+}
+.btn-light-green:hover {
+    background-color: #005341;
+    transition: all 0.3s ease-out;
+}

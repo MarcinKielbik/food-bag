@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg py-3 sticky-top">
+    <div class="container">
+        <a class="navbar-brand" routerLink="home"><span style="color: #007057;"><fa-icon [icon]="logo"></fa-icon></span> Food bag</a>
+
+        <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded] aria-controls="collapseExample">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="collapseExample" [ngbCollapse]="isCollapsed">
+        <ul class="navbar-nav justify-content-center me-auto w-100">
+          <li class="nav-item">
+            <a class="nav-link" [routerLinkActive]="['active']" aria-current="page" routerLink="home">Strona główna</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLinkActive]="['active']" routerLink="produkty">Produkty</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLinkActive]="['active']" routerLink="kontakt">Kontakt</a>
+          </li>
+        </ul>
+
+        <button class="btn-light-green me-2" type="button" routerLink="logowanie">Logowanie</button>
+      </div>
+
+      
+    </div>
+  </nav>

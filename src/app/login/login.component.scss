@@ -1,0 +1,25 @@
+.login-form {
+  background-color: #fff;
+  padding: 70px;
+  border-radius: 12px;
+  margin: 35px;
+  // width: 75vh;
+  max-width: 545px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+  label {
+    margin-bottom: 5px;
+    margin-top: 7px;
+  }
+}
+
+.btn-login {
+    letter-spacing: 0.05rem;
+    border-radius: 7px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(170, 170, 170);
+}
+  

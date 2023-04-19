@@ -1,0 +1,16 @@
+.container {
+    max-width: 900px;
+}
+
+h4, p {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+.picsum-img-wrapper {
+    // background-color: #92b3ac;
+    background: linear-gradient(#46c1a6, #34927d);
+    text-align: center;
+}
+.picsum-img-wrapper img{
+    height: 479px;
+}
