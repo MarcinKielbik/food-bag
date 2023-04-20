@@ -12,9 +12,9 @@ export class SlideshowComponent implements OnInit {
 
   bread = 'assets/images/chleb.jpg';
   fruit = 'assets/images/warzywa-i-owoce.jpg';
-  burger = 'assets/images/Coffee.jpg';
+  chocolate = 'assets/images/chocolate.jpg';
   // images = [2, 1000, 2].map((n) => `https://picsum.photos/id/${n}/900/500`);
-  images = [this.bread, this.fruit, this.burger];
+  images = [this.bread, this.fruit, this.chocolate];
 
 	constructor(config: NgbCarouselConfig) {
 		// customize default values of carousels used by this component tree

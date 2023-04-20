@@ -1,7 +1,3 @@
-.container {
-    max-width: 900px;
-}
-
 h4, p {
     font-weight: bold;
     text-shadow: 1px 1px 2px black;
@@ -14,3 +10,8 @@ h4, p {
 .picsum-img-wrapper img{
     height: 479px;
 }
+
+button {
+    background-color: white !important;
+}
+

@@ -3,6 +3,7 @@
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import "~bootstrap-icons/font/bootstrap-icons.css";
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -11,7 +12,7 @@ body {
 }
 
 $bg-green: #007057;
-$second-bg: #098066;
+$second-bg: #037e64;
 
 .bg-second {
     background-color: $second-bg;
@@ -23,8 +24,10 @@ $second-bg: #098066;
      padding: 10px;
     border-radius: 10px;
     border: 0px;
+    transition-duration: .35s;
 }
 .btn-light-green:hover {
     background-color: #005341;
-    transition: all 0.3s ease-out;
+    // transition: all 0.3s ease-out;
+    transition-duration: .35s;
 }

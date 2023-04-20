@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { faShoppingBag } from '@fortawesome/free-solid-svg-icons';
+import { faShoppingBag} from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-navbar',
@@ -8,6 +9,7 @@ import { faShoppingBag } from '@fortawesome/free-solid-svg-icons';
 })
 export class NavbarComponent implements OnInit {
   logo = faShoppingBag;
+
   isCollapsed = true;  
 
   constructor() { }
