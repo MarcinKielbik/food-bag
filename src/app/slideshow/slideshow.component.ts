@@ -10,7 +10,7 @@ import { NgbCarouselConfig, NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap
 })
 export class SlideshowComponent implements OnInit {
 
-  bread = 'assets/images/chleb.jpg';
+  bread = 'assets/images/bread.jpg';
   fruit = 'assets/images/warzywa-i-owoce.jpg';
   chocolate = 'assets/images/chocolate.jpg';
   // images = [2, 1000, 2].map((n) => `https://picsum.photos/id/${n}/900/500`);
