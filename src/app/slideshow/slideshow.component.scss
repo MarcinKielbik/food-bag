@@ -1,16 +1,16 @@
-h1, p {
-    font-weight: bold;
-    text-shadow: 1px 1px 3px #000000, 0 0 0.2em #000000;
+h1,
+p {
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #000000, 0 0 0.2em #000000;
 }
 .picsum-img-wrapper {
-    // background-color: #92b3ac;
-    background: linear-gradient(#2f7a6a, #1a5447, );
-    text-align: center;    
-    //height: 479px;
-
+  // background-color: #92b3ac;
+  background: linear-gradient(#2f7a6a, #1a5447);
+  text-align: center;
+  //height: 479px;
 }
 .picsum-img-wrapper img {
-    height: 479px;
+  height: 479px;
 }
 // ngb-carousel img {
 //     // width: 100%;
