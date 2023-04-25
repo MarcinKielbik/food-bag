@@ -11,3 +11,26 @@ a {
 .active {
   color: #007057 !important;
 }
+.navbar-toggler {
+  border: 0px;
+  // background-color: rgb(220, 220, 220);
+  outline: 0;
+}
+
+.navbar-brand {
+  margin-right: 0px;
+}
+
+.btn-login {
+  background-color: #007057;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: 0px;
+  transition-duration: 0.35s;
+}
+
+.btn-login:hover {
+  background-color: #005341;
+  transition-duration: 0.35s;
+}

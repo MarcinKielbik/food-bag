@@ -10,10 +10,12 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductsComponent } from './products/products.component';
 import { LoginComponent } from './login/login.component';
-import { ContactComponent } from './contact/contact.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FoodCardComponent } from './food-card/food-card.component';
+import { RecipesComponent } from './recipes/recipes.component';
+import { BurgerButtonComponent } from './burger-button/burger-button.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -23,16 +25,18 @@ import { FoodCardComponent } from './food-card/food-card.component';
     FooterComponent,
     ProductsComponent,
     LoginComponent,
-    ContactComponent,
     SlideshowComponent,
     DashboardComponent,
-    FoodCardComponent
-  ],
+    FoodCardComponent,
+    RecipesComponent,
+    BurgerButtonComponent,
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
