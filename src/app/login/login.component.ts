@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-login',
@@ -12,5 +12,5 @@ export class LoginComponent {
   Email = 'Email';
   Password = 'Hasło';
   signin = 'Zaloguj'
-  loginIcon = faPaperPlane;
+  loginIcon = faSignInAlt;
 }

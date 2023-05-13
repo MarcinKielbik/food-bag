@@ -16,6 +16,8 @@ import { FoodCardComponent } from './food-card/food-card.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { BurgerButtonComponent } from './burger-button/burger-button.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CommonModule } from '@angular/common';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -30,13 +32,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FoodCardComponent,
     RecipesComponent,
     BurgerButtonComponent,
+    CartComponent,
     ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     FontAwesomeModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

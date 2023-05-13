@@ -4,8 +4,10 @@
 			<img [src]="images[0]" alt="Random first slide" />
 		</div>
 		<div class="carousel-caption">
+			
 			<h1>Chrupiące z pieca</h1>
 			<p>Wiele rodajów pieczywa</p>
+			<button [routerLinkActive]="['active']" routerLink= "/produkty" class="btn-white-round mb-3">Produkty</button>
 		</div>
 	</ng-template>
 	<ng-template ngbSlide>

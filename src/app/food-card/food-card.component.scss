@@ -1,9 +1,15 @@
-img {
-  padding: 20px;
-}
+.card{
+  // background: linear-gradient(#75dac4, #fff);
+  // background: linear-gradient(#75dac4, #ffffff);
 
-.card {
-  border: 0px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.15);
-  border-radius: 12px;
+  border-radius: 20px;
+  border: 0px;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px);
+  img {
+    // margin-bottom: 10px;
+    border-radius: 20px;
+    // padding: 5px;
+  }
 }

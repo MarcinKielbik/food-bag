@@ -9,8 +9,8 @@ import { faHamburger } from '@fortawesome/free-solid-svg-icons';
 export class HomeComponent implements OnInit {
 
   smartfridge = 'assets/images/refrigerators.png';
-  phone = 'assets/images/phone.png';
-  internet = 'assets/images/laptop.png';
+  phone = 'assets/images/phone_sq.png';
+  internet = 'assets/images/macbook.jpg';
   faHamburger = faHamburger;
   
   constructor() { }

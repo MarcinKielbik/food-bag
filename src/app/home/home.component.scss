@@ -1,8 +1,21 @@
-img {
-  // width: 350px;
-  width: 300px;
-  border-radius: 12px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+.green-box {
+  width: 330px;
+  height: 330px;
+  font-weight: 500;
+  // background-color: blueviolet;
+  margin-right: auto;
+  margin-left: auto;
+  img {
+    border-radius: 20px;
+    // width: 350px;
+    width: 100%;
+    // box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+
+  p {
+    position: absolute;
+  }
+
 }
 
 .circle {
@@ -12,3 +25,7 @@ img {
   border-radius: 50%;
   padding-top: 20%;
 }
+
+
+
+

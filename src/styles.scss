@@ -2,11 +2,16 @@
 
 /* Importing Bootstrap SCSS file. */
 @import "bootstrap/scss/bootstrap";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 @import "bootstrap-icons/font/bootstrap-icons.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 
 body {
   font-family: "Roboto", sans-serif;
+  //font-family: 'Rubik', sans-serif;
   background: whitesmoke;
   margin: 0;
 }
@@ -30,5 +35,21 @@ $second-bg: #037e64;
 .btn-light-green:hover {
   background-color: #005341;
   // transition: all 0.3s ease-out;
+  transition-duration: 0.35s;
+}
+
+.btn-white-round {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: 0px;
+  transition-duration: 0.35s;
+  font-weight: 600;
+}
+
+.btn-white-round:hover {
+  background-color: #d2d2d2;
+  color: $second-bg;
   transition-duration: 0.35s;
 }
