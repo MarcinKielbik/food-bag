@@ -1,18 +1,18 @@
 <div class="container">
-<form class="login-form">
-      <label>{{Email}}</label>
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label>{{Password}}</label>
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-        <div class="form-check my-3">
-          <input class="form-check-input" type="checkbox" value="" id="rememberPasswordCheck">
-          <label class="form-check-label" for="rememberPasswordCheck">
-            Remember password
-          </label>
-        </div>
-        <div class="d-grid">
+  <form class="login-form">
+
+    <p class="logo"><span style="color: #007057;"><fa-icon [icon]="logo"></fa-icon></span>
+      Logowanie</p>
+
+      <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+      <input type="password" class="form-control mt-3" id="floatingPassword" placeholder="Hasło">
+
+        <div class="d-grid mt-5 mb-3">
           <button class="btn-light-green" type="submit"><fa-icon [icon]="loginIcon"></fa-icon> {{signin}}</button>
         </div>
+
+        <a href="">Nie pamiętam hasła</a>
+
         <hr class="my-4">
         <div class="d-grid mb-2">
           <button class="btn-light-green" type="submit"><i class="bi bi-google"></i> Zaloguj przez Google</button>
@@ -20,6 +20,8 @@
         <div class="d-grid">
           <button class="btn-light-green" type="submit"><i class="bi bi-microsoft"></i> Zaloguj przez Microsoft</button>
         </div>
-      </form>
+
+        <strong><p class="mt-4">Nie masz jeszcze konta?</p></strong>
+        <button class="btn-white" routerLink="/rejestracja">Zarejestruj się</button>
+  </form>
 </div>
-    

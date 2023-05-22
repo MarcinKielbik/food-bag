@@ -34,9 +34,11 @@ $second-bg: #037e64;
 
 .btn-light-green:hover {
   background-color: #005341;
-  // transition: all 0.3s ease-out;
-  transition-duration: 0.35s;
 }
+
+
+
+
 
 .btn-white-round {
   background-color: #fff;
@@ -51,5 +53,5 @@ $second-bg: #037e64;
 .btn-white-round:hover {
   background-color: #d2d2d2;
   color: $second-bg;
-  transition-duration: 0.35s;
 }
+

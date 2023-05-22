@@ -6,8 +6,7 @@
   border-radius: 20px;
   margin: 35px;
   // width: 75vh;
-  max-width: 545px;  
-
+  max-width: 545px;
   margin-right: auto;
   margin-left: auto;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -39,27 +38,4 @@ a:hover {
   font-size: 33px;
   text-align: center;
   margin-bottom: 35px;
-}
-
-.btn-login {
-  letter-spacing: 0.05rem;
-  border-radius: 10px;
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid rgb(170, 170, 170);
-}
-
-.btn-white {
-  background-color: #fff;
-  color: #000;
-  border: 1px solid #616161;
-  padding: 10px 20px;
-  border-radius: 10px;
-  transition-duration: 0.35s;
-  font-weight: 600;
-}
-
-.btn-white:hover {
-  background-color: #d2d2d2;
-  color: #037e64;
 }

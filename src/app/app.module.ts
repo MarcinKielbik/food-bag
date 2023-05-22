@@ -18,6 +18,7 @@ import { BurgerButtonComponent } from './burger-button/burger-button.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonModule } from '@angular/common';
 import { CartComponent } from './cart/cart.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { CartComponent } from './cart/cart.component';
     RecipesComponent,
     BurgerButtonComponent,
     CartComponent,
+    SignupComponent,
     ],
   imports: [
     BrowserModule,
