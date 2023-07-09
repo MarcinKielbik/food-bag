@@ -19,6 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonModule } from '@angular/common';
 import { CartComponent } from './cart/cart.component';
 import { SignupComponent } from './signup/signup.component';
+import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,10 @@ import { SignupComponent } from './signup/signup.component';
     NgbModule,
     FontAwesomeModule,
     BrowserAnimationsModule,
-    CommonModule
+    CommonModule,
+    NgbCollapseModule,
+    FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

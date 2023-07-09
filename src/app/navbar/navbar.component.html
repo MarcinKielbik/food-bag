@@ -1,16 +1,22 @@
 <nav class="navbar navbar-expand-md py-3 sticky-top">
   <div class="container">
-    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
-      [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample">
-      <!-- <span class="navbar-toggler-icon"></span> -->
-      <app-burger-button (click)="isActive = !isActive"></app-burger-button>
+
+    <button class="navbar-toggler" (click)="open(content)" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
     </button>
 
     <a class="navbar-brand" routerLink="/home"><span><fa-icon fa-4x  [icon]="logo"></fa-icon></span>
-      Food bag</a>
+      Food bag
+    </a>
 
-    <div class="collapse navbar-collapse justify-content-lg-center justify-content-md-center me-auto w-100" id="collapseExample" [(ngbCollapse)]="isCollapsed">
-      <ul class="navbar-nav">
+<ng-template #content menu>
+
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
         <li class="nav-item">
           <a class="nav-link" [routerLinkActive]="['active']" aria-current="page" routerLink="/home">Strona główna</a>
         </li>
@@ -22,6 +28,13 @@
         </li>
       </ul>
     </div>
+
+</ng-template>
+
+    <div class="offcanvas" tabindex="-1" aria-labelledby="offcanvasNavbarLabel">
+      <ng-container *ngTemplateOutlet="content"></ng-container>
+    </div>
+
     <button class="btn-login" type="button" routerLink="logowanie">
       Logowanie
     </button>

@@ -4,13 +4,27 @@
   box-shadow: 0 1px 4px rgb(0 0 0 / 0.2);
   font-style: normal;
 }
-a {
-  transition: all 0.3s ease-out;
+
+.navbar-brand, .nav-link {
   font-weight: bold;
+
 }
 
-a:hover {
-  color: #005341;
+.nav-link,
+.nav-item {
+  transition: all 0.3s ease-out;
+}
+
+.nav-link {
+  margin: 0px 4px;
+}
+
+.nav-item:hover {
+  background-color: whitesmoke;
+  border-radius: 100px;
+  .nav-link:hover {
+    color: #005341;
+  }
 }
 
 .navbar-brand {
@@ -56,3 +70,12 @@ a:hover {
   background-color: #005341;
   transition-duration: 0.35s;
 }
+
+/*new*/
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    margin-right: auto;
+  }
+}
+
